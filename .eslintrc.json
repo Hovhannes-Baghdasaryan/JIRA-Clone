@@ -13,16 +13,12 @@
     "@next/next/no-img-element": "off",
     "react/no-unescaped-entities": "off",
     "import/no-anonymous-default-export": "off",
-    "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "comma-dangle": ["error", "always-multiline"],
-    // "@typescript-eslint/no-explicit-any": "error",
-    // add new line above comment
-    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "no-console": ["warn", { "allow": ["warn"] }],
     "lines-around-comment": [
       "error",
       {
@@ -32,24 +28,6 @@
         "allowClassStart": true,
         "allowObjectStart": true,
         "allowArrayStart": true
-      }
-    ],
-    // add new line above return
-    "newline-before-return": "error",
-    // add new line below import
-    "import/newline-after-import": [
-      "error",
-      {
-        "count": 1
-      }
-    ],
-    "@typescript-eslint/ban-types": [
-      "error",
-      {
-        "extendDefaults": true,
-        "types": {
-          "{}": false
-        }
       }
     ]
   },
